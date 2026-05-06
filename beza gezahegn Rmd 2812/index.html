@@ -1,0 +1,680 @@
+
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beza Gezahegn | Portfolio</title>
+  <meta name="description" content="Professional portfolio of Beza Gezahegn - web developer, designer and technology enthusiast.">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">  
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#home">Beza<span class="text-secondary"></span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item d-flex align-items-center mt-3 mt-lg-0 ms-lg-3">
+          <button id="themeToggle" class="btn btn-outline-light btn-sm">🌙</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <section id="home" class="hero">
+    <div class="hero-background">
+      <div class="gradient-orb gradient-orb-1"></div>
+      <div class="gradient-orb gradient-orb-2"></div>
+      <div class="gradient-orb gradient-orb-3"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="container">
+        <div class="row align-items-center min-vh-100">
+          <!-- Left: Text Content -->
+          <div class="col-lg-6 hero-text-section" data-aos="fade-up" data-aos-duration="900">
+            <div class="hero-welcome">
+              <span class="hero-badge">
+                <i class="bi bi-star-fill"></i> Welcome to my studio
+              </span>
+            </div>
+
+            <div class="hero-headline-wrapper">
+              <h1 class="hero-title">
+                <span class="title-word">I build</span>
+                <span class="title-highlight">modern</span>
+                <span class="title-word">digital</span>
+                <span class="title-highlight">experiences</span>
+              </h1>
+            </div>
+
+            <div class="hero-subtitle-wrapper">
+              <p class="hero-roles">
+                <span class="role-label">I'm a</span>
+                <span class="typed-text">Full Stack Developer</span>
+                <span class="cursor-blink"></span>
+              </p>
+            </div>
+
+            <p class="hero-description">
+              I craft beautiful, scalable digital solutions that combine <span class="text-accent">design thinking</span> with clean code. Passionate about user experience, performance, and delivering <span class="text-accent">real-world impact</span>.
+            </p>
+
+            <!-- Tech Stack Pills -->
+            <div class="hero-tech-stack">
+              <span class="tech-pill">HTML/CSS</span>
+              <span class="tech-pill">JavaScript</span>
+              <span class="tech-pill">Bootstrap</span>
+              <span class="tech-pill">Responsive Design</span>
+              
+            </div>
+
+            <!-- CTA Buttons -->
+            <div class="hero-cta-buttons">
+              <a href="#projects" class="btn btn-primary btn-cta btn-glow">
+                <i class="bi bi-arrow-right"></i> View Projects
+              </a>
+              <a href="#contact" class="btn btn-outline-light btn-cta">
+                <i class="bi bi-envelope"></i> Contact Me
+              </a>
+               <button id="aboutDownloadResume" class="btn btn-primary btn-cta"><i class="bi bi-download"></i> Download CV</button>
+            </div>
+
+            <!-- Social Links -->
+            <div class="hero-social">
+              <a href="https://www.linkedin.com/in/beza-gezahegn-770089339?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="hero-social-link" aria-label="LinkedIn">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a href="https://github.com/ransam12" target="_blank" class="hero-social-link" aria-label="GitHub">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://t.me/Beza3171" target="_blank" class="hero-social-link" aria-label="Telegram">
+                <i class="bi bi-telegram"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right: Visual Element / Floating Card -->
+          <div class="col-lg-6 hero-visual-section" data-aos="fade-left" data-aos-duration="900">
+            <div class="hero-visual-container">
+              <div class="floating-card">
+                <div class="card-content">
+                  <div class="card-avatar">
+                    <img src="image/photo_2026-04-26_11-23-30.jpg" alt="Beza Gezahegn">
+                  </div>
+                  <h3 class="card-name">Beza Gezahegn</h3>
+                  <p class="card-title">Full Stack Developer</p>
+                  <p class="card-description">Computer Science Student crafting polished digital experiences with modern web technologies.</p>
+                  
+                  <div class="card-stats">
+                    <div class="stat">
+                      <span class="stat-value">7+</span>
+                      <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat">
+                      <span class="stat-value">1+</span>
+                      <span class="stat-label">Experience</span>
+                    </div>
+                    <div class="stat">
+                      <span class="stat-value">6+</span>
+                      <span class="stat-label">Technologies</span>
+                    </div>
+                  </div>
+
+                  <div class="card-footer">
+                    <!-- <button class="btn btn-sm btn-secondary">Available for work</button> -->
+                  </div>
+                </div>
+              </div>
+
+              <!-- Decorative Elements -->
+              <div class="floating-element element-1">
+                <div class="element-icon">
+                  <i class="bi bi-lightning-fill"></i>
+                </div>
+              </div>
+              <div class="floating-element element-2">
+                <div class="element-icon">
+                  <i class="bi bi-code-slash"></i>
+                </div>
+              </div>
+              <div class="floating-element element-3">
+                <div class="element-icon">
+                  <i class="bi bi-palette-fill"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="hero-scroll-indicator">
+      <span class="scroll-text">Scroll to explore</span>
+      <div class="scroll-arrow">
+        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none">
+          <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <div class="row align-items-center gy-5">
+        <!-- Profile Image / Left Side -->
+        <div class="col-lg-5 text-center" data-aos="fade-right" data-aos-duration="900">
+          <div class="about-image-wrapper">
+            <div class="about-image-container">
+              <div class="about-avatar-glow"></div>
+              <div class="about-avatar">
+                <img src="image/photo_2026-04-26_11-23-30.jpg" alt="Beza Gezahegn" class="about-avatar-img">
+              </div>
+              <div class="about-badges">
+                <span class="about-badge about-badge-1"><i class="bi bi-lightning-fill"></i> Fast Learner</span>
+                <span class="about-badge about-badge-2"><i class="bi bi-heart-fill"></i> Passionate</span>
+                <span class="about-badge about-badge-3"><i class="bi bi-gear-fill"></i> Creative</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Content / Right Side -->
+        <div class="col-lg-7" data-aos="fade-left" data-aos-duration="900">
+          <div class="about-content">
+            <div class="about-header mb-4">
+              <span class="about-tag"><i class="bi bi-star-fill"></i> About Me</span>
+              <h2 class="section-title mt-3 mb-2">Beza Gezahegn</h2>
+              <h3 class="about-role">Full Stack Developer & Creative Problem Solver</h3>
+            </div>
+
+
+            <!-- Professional Summary -->
+            <div class="about-summary mb-5">
+              <p class="text-muted lh-lg">I'm a motivated <span class="text-highlight">Computer Science student</span> and web developer who transforms concepts into polished digital experiences. With a passion for <span class="text-highlight">clean code</span> and intuitive design, I craft solutions that are not only visually stunning but also highly functional and performant.</p>
+              <p class="text-muted lh-lg">My journey in technology has taught me that great solutions come from understanding user needs, solving problems creatively, and continuously learning. I thrive in collaborative environments and take pride in delivering work that exceeds expectations.</p>
+            </div>
+
+            <!-- Highlights Grid -->
+            <div class="about-highlights mb-5">
+              <div class="highlight-card">
+                <div class="highlight-icon"><i class="bi bi-person-workspace"></i></div>
+                <h4>Strategic Thinking</h4>
+                <p class="text-muted mb-0">Design-driven approach to problem solving</p>
+              </div>
+              <div class="highlight-card">
+                <div class="highlight-icon"><i class="bi bi-chat-dots"></i></div>
+                <h4>Teamwork</h4>
+                <p class="text-muted mb-0">Collaborate effectively and communicate clearly</p>
+              </div>
+              <div class="highlight-card">
+                <div class="highlight-icon"><i class="bi bi-lightning"></i></div>
+                <h4>Innovation</h4>
+                <p class="text-muted mb-0">Always exploring new technologies and approaches</p>
+              </div>
+            </div>
+
+            <!-- Stats / Animated Counters -->
+            <div class="about-stats mb-5">
+              <div class="stat-item">
+                <div class="stat-value"><span class="stat-counter" data-target="1">0</span>+</div>
+                <div class="stat-label">Years Experience</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-value"><span class="stat-counter" data-target="5">0</span>+</div>
+                <div class="stat-label">Projects Delivered</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-value"><span class="stat-counter" data-target="7">0</span>+</div>
+                <div class="stat-label">Technologies</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-value"><span class="stat-counter" data-target="100">0</span>%</div>
+                <div class="stat-label">Dedication</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section bg-dark" data-view="progress">
+    <div class="container">
+      <div class="row gy-5 align-items-start">
+        <div class="col-lg-4" data-aos="fade-right">
+          <h2 class="section-title text-white">Skills</h2>
+          <p class="text-muted">A premium skill showcase with animated charts, progress bars, and tag-driven views for a modern developer portfolio.</p>
+          <div class="skill-toggle">
+            <button class="btn btn-outline-light active" data-skill-view="progress">Progress View</button>
+            <button class="btn btn-outline-light" data-skill-view="tags">Tag View</button>
+          </div>
+          <div class="skill-counts">
+            <div class="skill-count">
+              <span class="skill-counter" data-target="12">0</span>
+              <small>Technologies</small>
+            </div>
+            <div class="skill-count">
+              <span class="skill-counter" data-target="6">0</span>
+              <small>Expert Skills</small>
+            </div>
+            <div class="skill-count">
+              <span class="skill-counter" data-target="4">0</span>
+              <small>Skill Categories</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8" data-aos="fade-left">
+          <div class="row g-4">
+            <div class="col-sm-6 col-xl-3" data-aos="fade-up" data-aos-delay="100">
+              <div class="glass-card skill-card">
+                <div class="d-flex align-items-center gap-3 mb-4">
+                  <span class="skill-icon"><i class="bi bi-laptop"></i></span>
+                  <div>
+                    <h5>Frontend</h5>
+                    <p class="text-muted mb-0">Modern web UI and interface design.</p>
+                  </div>
+                </div>
+                <div class="skill-circles">
+                  <div class="skill-circle" data-progress="92"><div class="skill-circle-inner"><span class="circle-value">0%</span><span class="circle-label">HTML</span></div></div>
+                  <div class="skill-circle" data-progress="90"><div class="skill-circle-inner"><span class="circle-value">0%</span><span class="circle-label">CSS</span></div></div>
+                  <div class="skill-circle" data-progress="84"><div class="skill-circle-inner"><span class="circle-value">0%</span><span class="circle-label">JavaScript</span></div></div>
+                </div>
+                <div class="skill-progress">
+                  <div class="skill-line">
+                    <div class="skill-label"><span>React</span><strong>50%</strong></div>
+                    <div class="progress"><div class="progress-bar skill-progress-bar" role="progressbar" data-progress="88" style="width:0%"></div></div>
+                  </div>
+                  <div class="skill-line">
+                    <div class="skill-label"><span>Bootstrap</span><strong>88%</strong></div>
+                    <div class="progress"><div class="progress-bar skill-progress-bar" role="progressbar" data-progress="90" style="width:0%"></div></div>
+                  </div>
+                </div>
+                <div class="skill-tags">
+                  <span class="badge">HTML</span>
+                  <span class="badge">CSS</span>
+                  <span class="badge">JS</span>
+                  <span class="badge">React</span>
+                  <span class="badge">Bootstrap</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-xl-3" data-aos="fade-up" data-aos-delay="150">
+              <div class="glass-card skill-card">
+                <div class="d-flex align-items-center gap-3 mb-4">
+                  <span class="skill-icon"><i class="bi bi-server"></i></span>
+                  <div>
+                    <h5>Backend</h5>
+                    <p class="text-muted mb-0">Robust server logic and data workflows.</p>
+                  </div>
+                </div>
+                <div class="skill-circles">
+                  <div class="skill-circle" data-progress="75"><div class="skill-circle-inner"><span class="circle-value">0%</span><span class="circle-label">Python</span></div></div>
+                  <div class="skill-circle" data-progress="70"><div class="skill-circle-inner"><span class="circle-value">0%</span><span class="circle-label">Django</span></div></div>
+                  <div class="skill-circle" data-progress="68"><div class="skill-circle-inner"><span class="circle-value">0%</span><span class="circle-label">APIs</span></div></div>
+                </div>
+                <div class="skill-progress">
+                  <div class="skill-line">
+                    <div class="skill-label"><span>REST APIs</span><strong>78%</strong></div>
+                    <div class="progress"><div class="progress-bar skill-progress-bar" role="progressbar" data-progress="78" style="width:0%"></div></div>
+                  </div>
+                  <div class="skill-line">
+                    <div class="skill-label"><span>Databases</span><strong>72%</strong></div>
+                    <div class="progress"><div class="progress-bar skill-progress-bar" role="progressbar" data-progress="72" style="width:0%"></div></div>
+                  </div>
+                </div>
+                <div class="skill-tags">
+                  <span class="badge">Python</span>
+                  <span class="badge">Django</span>
+                  <span class="badge">API</span>
+                  <span class="badge">SQL</span>
+                  <span class="badge">Server</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-xl-3" data-aos="fade-up" data-aos-delay="200">
+              <div class="glass-card skill-card">
+                <div class="d-flex align-items-center gap-3 mb-4">
+                  <span class="skill-icon"><i class="bi bi-phone"></i></span>
+                  <div>
+                    <h5>python</h5>
+                    <p class="text-muted mb-0">Developed scripts using Python to solve real-world problems.</p>
+                  </div>
+                </div>
+                <div class="skill-circles">
+                  <div class="skill-circle" data-progress="80"><div class="skill-circle-inner"><span class="circle-value">0%</span><span class="circle-label">Flutter</span></div></div>
+                  <div class="skill-circle" data-progress="76"><div class="skill-circle-inner"><span class="circle-value">0%</span><span class="circle-label">PWA</span></div></div>
+                  <div class="skill-circle" data-progress="68"><div class="skill-circle-inner"><span class="circle-value">0%</span><span class="circle-label">UX</span></div></div>
+                </div>
+                <div class="skill-progress">
+                  <div class="skill-line">
+                    <div class="skill-label"><span>Python</span><strong>82%</strong></div>
+                    <div class="progress"><div class="progress-bar skill-progress-bar" role="progressbar" data-progress="82" style="width:0%"></div></div>
+                  </div>
+                  <div class="skill-line">
+                    <div class="skill-label"><span>Prototyping</span><strong>76%</strong></div>
+                    <div class="progress"><div class="progress-bar skill-progress-bar" role="progressbar" data-progress="76" style="width:0%"></div></div>
+                  </div>
+                </div>
+                <div class="skill-tags">
+                  <span class="badge">Python</span>
+                  <span class="badge">javascript</span>
+                  <span class="badge">Mobile</span>
+                  <span class="badge">UX</span>
+                  <span class="badge">Responsive</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-xl-3" data-aos="fade-up" data-aos-delay="250">
+              <div class="glass-card skill-card">
+                <div class="d-flex align-items-center gap-3 mb-4">
+                  <span class="skill-icon"><i class="bi bi-tools"></i></span>
+                  <div>
+                    <h5>Tools</h5>
+                    <p class="text-muted mb-0">Workflow tools and productivity technologies.</p>
+                  </div>
+                </div>
+                <div class="skill-circles">
+                  <div class="skill-circle" data-progress="86"><div class="skill-circle-inner"><span class="circle-value">0%</span><span class="circle-label">Git</span></div></div>
+                  <div class="skill-circle" data-progress="78"><div class="skill-circle-inner"><span class="circle-value">0%</span><span class="circle-label">Figma</span></div></div>
+                  <div class="skill-circle" data-progress="70"><div class="skill-circle-inner"><span class="circle-value">0%</span><span class="circle-label">VS Code</span></div></div>
+                </div>
+                <div class="skill-progress">
+                  <div class="skill-line">
+                    <div class="skill-label"><span>GitHub</span><strong>86%</strong></div>
+                    <div class="progress"><div class="progress-bar skill-progress-bar" role="progressbar" data-progress="86" style="width:0%"></div></div>
+                  </div>
+                  <div class="skill-line">
+                    <div class="skill-label"><span>Design</span><strong>78%</strong></div>
+                    <div class="progress"><div class="progress-bar skill-progress-bar" role="progressbar" data-progress="78" style="width:0%"></div></div>
+                  </div>
+                </div>
+                <div class="skill-tags">
+                  <span class="badge">Git</span>
+                  <span class="badge">GitHub</span>
+                  <span class="badge">Figma</span>
+                  <span class="badge">VS Code</span>
+                  <span class="badge">Strategy</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-start gap-3 mb-4" data-aos="fade-up">
+        <div>
+          <h2 class="section-title">Projects</h2>
+          <p class="text-muted">Featured work with category filters and project detail popups.</p>
+        </div>
+        <div class="filter-btns btn-group" role="group" aria-label="project filters">
+          <button class="btn btn-outline-light active" data-filter="all">All</button>
+          <button class="btn btn-outline-light" data-filter="web">Web</button>
+          <button class="btn btn-outline-light" data-filter="mobile">Mobile</button>
+          <button class="btn btn-outline-light" data-filter="backend">Backend</button>
+        </div>
+      </div>
+      <div class="row g-4" id="projectGrid">
+        <div class="col-md-6 col-xl-4" data-category="web" data-aos="fade-up">
+          <div class="card project-card h-100 glass-card">
+            <div class="card-body d-flex flex-column">
+              <span class="project-badge">Web</span>
+              <h5 class="card-title">Puppy Page</h5>
+              <p class="card-text text-muted">Responsive landing page built with HTML, CSS, and Bootstrap.</p>
+              <div class="mt-auto">
+                <button class="btn btn-sm btn-primary open-project" data-title="Puppy Page" data-description="A polished landing page showcasing playful puppy adoption cards and responsive layout." data-stack="HTML, CSS, Bootstrap" data-demo="https://github.com/ransam12/puppy-page" data-github="https://github.com/ransam12/puppy-page">View details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-xl-4" data-category="web" data-aos="fade-up" data-aos-delay="100">
+          <div class="card project-card h-100 glass-card">
+            <div class="card-body d-flex flex-column">
+              <span class="project-badge">Web</span>
+              <h5 class="card-title">Login System</h5>
+              <p class="card-text text-muted">Authentication interface with JavaScript-driven validation.</p>
+              <div class="mt-auto">
+                <button class="btn btn-sm btn-primary open-project" data-title="Login System" data-description="A sign-up and sign-in interface with client-side validation and user-friendly feedback." data-stack="HTML, CSS, JavaScript" data-demo="https://github.com/ransam12/sign_up-.git" data-github="https://github.com/ransam12/sign_up-.git">View details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-xl-4" data-category="backend" data-aos="fade-up" data-aos-delay="200">
+  <div class="card project-card h-100 glass-card">
+    <div class="card-body d-flex flex-column">
+      <span class="project-badge">Java</span>
+      <h5 class="card-title">school management </h5>
+      <p class="card-text text-muted">Java-based management project for student and teacher.</p>
+      <div class="mt-auto">
+        <button class="btn btn-sm btn-primary open-project"
+          data-title="Library System"
+          data-description="A desktop-style library management application built with Java and a simple database structure."
+          data-stack="Java, OOP"
+          data-demo="#"
+          data-github="https://github.com/ransam12/school-management.git">View details</button>
+      </div>
+    </div>
+  </div>
+</div>
+        
+        <div class="col-md-6 col-xl-4" data-category="web" data-aos="fade-up" data-aos-delay="100">
+          <div class="card project-card h-100 glass-card">
+            <div class="card-body d-flex flex-column">
+              <span class="project-badge">Web</span>
+              <h5 class="card-title">Portfolio Theme</h5>
+              <p class="card-text text-muted">A modern portfolio template with dark mode support.</p>
+              <div class="mt-auto">
+                <button class="btn btn-sm btn-primary open-project" data-title="Portfolio Theme" data-description="A reusable portfolio template with dark mode support, responsive sections and a polished layout." data-stack="Bootstrap, CSS, JS" data-demo="#" data-github="#">View details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="section bg-dark">
+    <div class="container">
+      <div class="row gy-5">
+        <div class="col-lg-4" data-aos="fade-right">
+          <h2 class="section-title text-white">Experience & Education</h2>
+          <p class="text-muted">A premium timeline that showcases roles, achievements, and growth with polished motion.</p>
+        </div>
+        <div class="col-lg-8" data-aos="fade-left">
+          <div class="timeline-wrapper" id="timelineSection">
+            <div class="timeline-rail"></div>
+            <div class="timeline-item timeline-item-left" data-aos="fade-right" data-aos-delay="100">
+              <div class="timeline-meta"><i class="bi bi-briefcase"></i> Frontend Development</div>
+              <h5>Student Web Developer</h5>
+              <p class="text-muted mb-3">Building responsive web apps, polished interfaces, and performance-driven user journeys while studying Computer Science.</p>
+              <div class="timeline-duration">2023 – Present</div>
+              <div class="timeline-extra">
+                <ul>
+                  <li>Designed feature-rich landing pages using Bootstrap and animations.</li>
+                  <li>Implemented client-side components with clean vanilla JavaScript.</li>
+                  <li>Optimized layouts for mobile, tablet, and desktop.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-item timeline-item-right" data-aos="fade-left" data-aos-delay="200">
+              <div class="timeline-meta"><i class="bi bi-mortarboard"></i> Academic Training</div>
+              <h5>Computer Science Coursework</h5>
+              <p class="text-muted mb-3">Studying algorithms, data structures, software architecture, and practical development methodologies.</p>
+              <div class="timeline-duration">2022 – Present</div>
+              <div class="timeline-extra">
+                <ul>
+                  <li>Completed projects in web development, systems design, and software engineering.</li>
+                  <li>Practiced problem solving with Java, Python, and algorithmic thinking.</li>
+                  <li>Focused on clean code, maintainable structure, and testing habits.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-item timeline-item-left" data-aos="fade-right" data-aos-delay="300">
+              <div class="timeline-meta"><i class="bi bi-lightning-charge"></i> Digital Marketing</div>
+              <h5>Marketing & Growth Skills</h5>
+              <p class="text-muted mb-3">Exploring product messaging, audience insights, and content strategy to improve engagement.</p>
+              <div class="timeline-duration">2023</div>
+              <div class="timeline-extra">
+                <ul>
+                  <li>Analyzed digital campaigns and created growth-focused communication ideas.</li>
+                  <li>Improved brand consistency through design-led marketing experiments.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-item timeline-item-right" data-aos="fade-left" data-aos-delay="400">
+              <div class="timeline-meta"><i class="bi bi-star"></i> Portfolio Growth</div>
+              <h5>Personal Product Studio</h5>
+              <p class="text-muted mb-3">Crafting portfolio experiences that highlight real work, clean visuals, and professional storytelling.</p>
+              <div class="timeline-duration">2024</div>
+              <div class="timeline-extra">
+                <ul>
+                  <li>Built and polished this premium portfolio using only HTML, CSS, Bootstrap, and plain JavaScript.</li>
+                  <li>Focused on motion, accessibility, and smooth interactive transitions.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section bg-dark">
+    <div class="container">
+      <div class="row gy-5 align-items-center">
+        <div class="col-lg-5" data-aos="fade-right" data-aos-duration="900">
+          <h2 class="section-title text-white">Contact</h2>
+          <p class="text-muted">Ready to collaborate or have a question? Send a message and I’ll reply as soon as possible.</p>
+          <div class="contact-card contact-info-card">
+            <div class="contact-info-item">
+              <div class="contact-icon"><i class="bi bi-envelope-fill"></i></div>
+              <div>
+                <span class="contact-label">Email</span>
+                <p class="contact-value">mamobezagezahegn@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-icon"><i class="bi bi-telephone-fill"></i></div>
+              <div>
+                <span class="contact-label">Phone</span>
+                <p class="contact-value">+251 0994028556</p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-icon"><i class="bi bi-geo-alt-fill"></i></div>
+              <div>
+                <span class="contact-label">Location</span>
+                <p class="contact-value">dire dawa, Ethiopia</p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-icon"><i class="bi bi-share-fill"></i></div>
+              <div>
+                <span class="contact-label">Social</span>
+                <div class="social-list mt-2 d-flex flex-wrap gap-3">
+                  <a href="https://www.linkedin.com/in/beza-gezahegn-770089339?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                  <a href="https://github.com/ransam12" target="_blank" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                  <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7" data-aos="fade-left" data-aos-duration="900">
+          <div class="contact-card">
+            <form id="contactForm" novalidate>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label" for="name">Name</label>
+                  <input type="text" id="name" class="form-control" placeholder="Your name" required>
+                  <div id="nameError" class="form-feedback"></div>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="email">Email</label>
+                  <input type="email" id="email" class="form-control" placeholder="you@example.com" required>
+                  <div id="emailError" class="form-feedback"></div>
+                </div>
+                <div class="col-12">
+                  <label class="form-label" for="subject">Subject</label>
+                  <input type="text" id="subject" class="form-control" placeholder="Project title or topic">
+                  <div id="subjectError" class="form-feedback"></div>
+                </div>
+                <div class="col-12">
+                  <label class="form-label" for="message">Message</label>
+                  <textarea id="message" rows="5" class="form-control" placeholder="Tell me about your project" required></textarea>
+                  <div id="messageError" class="form-feedback"></div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" id="sendButton" class="btn btn-primary btn-cta d-flex align-items-center gap-2 justify-content-center">
+                    <span class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+                    <span class="button-text">Send Message</span>
+                  </button>
+                </div>
+                <div class="col-12">
+                  <div id="formStatus" class="text-muted"></div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">© 2026 Beza Gezahegn • Built with Bootstrap 5 & vanilla JavaScript</footer>
+
+<div class="modal fade" id="projectModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-dark text-white border-0">
+      <div class="modal-header border-0">
+        <h5 class="modal-title" id="projectModalLabel">Project Details</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p id="modalDescription" class="text-muted"></p>
+        <div id="modalStack" class="mb-4"></div>
+        <div class="d-flex flex-wrap gap-2">
+          <a id="modalDemo" class="btn btn-primary btn-sm" target="_blank">Live Demo</a>
+          <a id="modalGitHub" class="btn btn-outline-light btn-sm" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
+
+    
